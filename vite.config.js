@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/ViteReactJS-API-Consume',
   plugins: [react()],
-  base: 'https://felipeguerra5.github.io/ViteReactJS-API-Consume/'
 })
